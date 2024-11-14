@@ -1,0 +1,13 @@
+[package]
+name = "humantty"
+version = "0.0.0"
+edition = "2021"
+license = "GPL-3.0-or-later"
+description = "Display ASCII control codes using their symbolic names, and extended 8th-bit bytes as hex octets. All with a bit of colour!"
+repository = "https://github.com/sunsetkookaburra/humantty"
+keywords = ["tty", "modem", "ascii"]
+categories = ["command-line-utilities"]
+
+[dependencies]
+clap = { version = "4", features = ["derive", "env"] }
+owo-colors = { version = "4", features = ["supports-colors"] }
